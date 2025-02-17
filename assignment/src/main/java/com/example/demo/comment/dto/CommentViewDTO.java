@@ -42,7 +42,4 @@ public class CommentViewDTO {
 
     @Schema(description = "댓글 삭제 여부", example = "false")
     private boolean isDeleted;
-
-    @Schema(description = "댓글에 달린 좋아요 개수", example = "99")
-    private Long likes;
 }

@@ -97,7 +97,6 @@ public class CommentService {
         commentViewDTO.setContent(commentQueryDTO.getContent());
         commentViewDTO.setCreatedAt(commentQueryDTO.getCreatedAt());
         commentViewDTO.setUpdatedAt(commentQueryDTO.getUpdatedAt());
-        commentViewDTO.setLikes(commentQueryDTO.getLikes());
         return commentViewDTO;
     }
 
